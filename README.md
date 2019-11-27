@@ -1,6 +1,6 @@
 # Sebastian Lee
-## 50 Easy Etudes for Cello; Op.101
-
+## 50 Easy Etudes for Violoncello; Op.101
+## 50 leichte Etüden für das Voloncello; Op.101
 An anthology of 50 cello études.
 (growing)
 
@@ -9,17 +9,18 @@ An anthology of 50 cello études.
 
 **Keys:**
 
-- C major
-- D minor
 - G major
+- D major
+- C major
 - A minor
 - E minor
 - B minor
+- F major
+- D minor
 - B♭ major
-- A major
 - G minor
-- D major
-- F♯ major
+- A major
+- F♯ minor
 - E♭ major
 - C minor
 
