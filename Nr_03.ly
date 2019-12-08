@@ -27,7 +27,7 @@
       g'1~\<              | %13
       g4\! c b a          | %14
       g2\> b,             | %15
-      c1\p \bar "|."      | %16
+      c4\p r r2 \bar "|." | %16
     }
 
     \new Staff = "celloII" \with { midiInstrument = #"cello" }
