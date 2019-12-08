@@ -30,6 +30,35 @@
       g2\< a4( b)\!        | %15
       c2.\> r4\! \bar "|." | %16
     }
+
+    \new Staff = "celloII"
+    \relative c {
+      \clef bass
+      \key c \major
+      \time 4/4
+
+      c4\p g e' g,    | %01
+      b g b g         | %02
+      c,2 e4( f)      | %03
+      g4( a8 b c4) c, | %04
+      e' g, c g       | %05
+      b g b g         | %06
+      c e f2          | %07
+      <<
+        { e4( es d2) }
+        \\
+        {g,1 }
+      >>              | %08
+      f'4 g, f' g,    | %09
+      e' g, e' g,     | %10
+      fis' g, f' g,   | %11
+      e' g, e' g,     | %12
+      bes c, bes' c,  | %13
+      a' c, fis dis'  | %14
+      e g, f' g,      | %15
+      e' g, c, r      | %16
+      \bar "|."
+    }
   >>
   \layout {}
   \header {

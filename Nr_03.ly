@@ -28,7 +28,31 @@
       g4\! c b a          | %14
       g2\> b,             | %15
       c1\p \bar "|."      | %16
+    }
 
+    \new Staff = "celloII"
+    \relative c {
+      \clef bass
+      \key c \major
+      \time 4/4
+
+      r1          | %01
+      g\mf        | %02
+      c4 c b c    | %03
+      d b a g     | %04
+      e'2 des     | %05
+      d b         | %06
+      c a         | %07
+      g1(         | %08
+      c4) c b c   | %09
+      d b a g     | %10
+      c1          | %11
+      g           | %12
+      e4 c' b bes | %13
+      a2 f        | %14
+      e4 g f d    | %15
+      c4 r r2     | %16
+      \bar "|."
     }
   >>
   \layout {}
