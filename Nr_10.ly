@@ -5,7 +5,7 @@
     instrumentName = \markup { \bold \huge { \larger "10." }}
   }
   <<
-    \new Staff = "celloI"
+    \new Staff = "celloI" \with { midiInstrument = #"cello" }
     \relative c {
       \clef bass
       \key e \minor
@@ -47,6 +47,7 @@
     }
   >>
   \layout {}
+  \midi {}
   \header {
     composer = "Sebastian Lee"
   }
